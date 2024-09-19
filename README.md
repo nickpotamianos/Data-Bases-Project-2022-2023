@@ -56,8 +56,8 @@ Once the database is set up, you can interact with it using the provided SQL que
 
 ```sql
 SELECT * FROM trip;
-### Insert a new reservation:
 ```
+### Insert a new reservation:
 ```sql
 INSERT INTO reservation (customer_name, trip_id, ...) VALUES (...);
 ```
