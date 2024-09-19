@@ -64,10 +64,9 @@ INSERT INTO reservation (customer_name, trip_id, ...) VALUES (...);
 ## Procedures
 
 The project includes several stored procedures that handle complex operations. For example:
-
-    addDriver: Adds a new driver to the least-staffed branch.
-    trip_info: Returns detailed information about a trip, including available seats, driver and guide details, and the number of reservations.
-    seats_available: Calculates the number of available seats for a specific trip.
+    `addDriver`: Adds a new driver to the least-staffed branch.
+    `trip_info`: Returns detailed information about a trip, including available seats, driver and guide details, and the number of reservations.
+    `seats_available`: Calculates the number of available seats for a specific trip.
 
 To call a procedure:
 
